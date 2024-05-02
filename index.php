@@ -13,7 +13,10 @@
     echo "I have started learning $name.";
     ECHO "<br> PHP is a server-side scripting language.<br>";
     echo "I have a $color $car.";
-    echo "<br>x+y = ", $x+$y;
+    echo "<br>x+y = ", $x+$y,"<br>";
+    var_dump(7);
+    var_dump([2, 3]);
+    var_dump(NULL);
     
     ?> 
     
