@@ -13,10 +13,30 @@
     echo "I have started learning $name.";
     ECHO "<br> PHP is a server-side scripting language.<br>";
     echo "I have a $color $car.";
-    echo "<br>x+y = ", $x+$y,"<br>";
-    var_dump(7);
-    var_dump([2, 3]);
-    var_dump(NULL);
+  
+
+    function add(){
+      $z;
+      global $x, $y;
+      $z = $x + $y;
+      echo "<br>The sum of $x and $y is $z."."<br>";
+    }
+    add();
+    print "We can also use print instead of echo.<br>";
+    //String functions
+    echo strlen("Hello World")."<br>";
+    echo str_word_count("Hello My name is Divy")."<br>";
+    echo strpos("Hello world!", "world")."<br>";
+    echo strtoupper("divy")."<br>";
+    echo strtolower("DIVY")."<br>";
+    echo str_replace("World", "Class" , "Hello World!")."<br>";
+    echo strrev("World")."<Br>";
+
+    //String concate
+    $txt1 = "COSC";
+    $txt2 = "4806";
+    echo($txt1 ."-". $txt2);
+   
     
     ?> 
     
