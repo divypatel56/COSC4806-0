@@ -3,7 +3,17 @@
     <title>PHP Test</title>
   </head>
   <body>
-    <?php echo "My first php"; ?> 
-    <h1>Welcome, Everyone</h1>
+    <h2>My First PHP Page!</h2> 
+    <?php  
+    $name = "PHP";
+    $car = "Toyota";
+    $color = "red";    
+    echo "I have started learning $name.";
+    ECHO "<br> PHP is a server-side scripting language.<br>";
+    echo "I have a $color $car.";
+    
+    ?> 
+    
+    
 
 </html>
